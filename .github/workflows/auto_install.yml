@@ -47,7 +47,6 @@ jobs:
         cd ${GITHUB_WORKSPACE}/gd-utils
         npm i
         cd ..
-
     - name: Install Cloud Foundry CLI
       run: |
         curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github&version=v6" | tar -zx
